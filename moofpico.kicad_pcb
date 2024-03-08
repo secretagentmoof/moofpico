@@ -10650,7 +10650,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 51 "unconnected-(SW2-Pad1)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c5111233-7712-461e-a77b-1edf039bfd81")
 		)
 		(pad "2" thru_hole oval
@@ -10680,7 +10680,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 102 "unconnected-(SW2-Pad4)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fe210862-7f18-4142-bda1-1e6a2ff5f91d")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm.wrl"

@@ -5384,6 +5384,12 @@
 		(uuid "1778308b-be9f-49de-bf63-bd7beb35e1eb")
 	)
 	(junction
+		(at 170.18 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68bd588b-5842-4a04-992a-65b7415043b2")
+	)
+	(junction
 		(at 110.49 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5488,6 +5494,10 @@
 		(uuid "68c9250d-f4f5-4ff3-9700-41aaa847f498")
 	)
 	(no_connect
+		(at 189.23 25.4)
+		(uuid "6dfce2de-b1f8-4259-8973-0e39f98f808f")
+	)
+	(no_connect
 		(at 135.89 181.61)
 		(uuid "73db9855-3cd1-4b83-8ed4-54a7dc2d6151")
 	)
@@ -5542,6 +5552,10 @@
 	(no_connect
 		(at 151.13 189.23)
 		(uuid "e5f43784-8e60-44f5-b55a-343c2e9d3437")
+	)
+	(no_connect
+		(at 173.99 25.4)
+		(uuid "e805ff55-2029-4664-a994-aa2be9e6386f")
 	)
 	(no_connect
 		(at 161.29 179.07)
@@ -5631,7 +5645,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 186.69 27.94)
+			(xy 170.18 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190595c6-0de1-4b3b-a90b-d2a86f22a49d")
+	)
+	(wire
+		(pts
+			(xy 189.23 27.94) (xy 191.77 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 27.94) (xy 186.69 29.21)
+			(xy 191.77 27.94) (xy 191.77 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5911,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 29.21) (xy 200.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d05648-db85-4a97-90cb-246f7c29cb0b")
-	)
-	(wire
-		(pts
 			(xy 166.37 57.15) (xy 173.99 57.15)
 		)
 		(stroke
@@ -5931,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 27.94) (xy 168.91 27.94)
+			(xy 172.72 27.94) (xy 173.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5951,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 27.94) (xy 167.64 29.21)
+			(xy 172.72 27.94) (xy 172.72 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6051,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 29.21) (xy 166.37 29.21)
+			(xy 166.37 29.21) (xy 170.18 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6161,6 +6175,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 29.21) (xy 200.66 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7da2721-2b62-464c-b961-91c713da4df0")
+	)
+	(wire
+		(pts
 			(xy 163.83 143.51) (xy 193.04 143.51)
 		)
 		(stroke
@@ -6211,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 189.23 29.21)
+			(xy 191.77 29.21) (xy 194.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10185,6 +10209,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 170.18 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c4267cb-a4b7-41d4-9357-5634b7b6b3c8")
+		(property "Reference" "#FLG03"
+			(at 170.18 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 168.402 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "765bd492-447f-44dc-be5e-c18ec801b406")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 134.62 0)
 		(unit 1)
@@ -12115,7 +12204,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 176.53 27.94 0)
+		(at 181.61 27.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12124,7 +12213,7 @@
 		(dnp no)
 		(uuid "d6980de0-127b-444c-98bb-bee49e756b1d")
 		(property "Reference" "SW2"
-			(at 176.53 17.78 0)
+			(at 181.61 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12221,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x02"
-			(at 176.53 20.32 0)
+			(at 181.61 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12229,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm"
-			(at 176.53 27.94 0)
+			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,7 +12238,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/7/ENG_CD_1825360_B5-2021008.pdf"
-			(at 176.53 27.94 0)
+			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +12247,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 176.53 27.94 0)
+			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,16 +12610,15 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 191.77 29.21 90)
+		(at 196.85 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e63e378d-2aff-4de7-b80d-cbc38105146f")
 		(property "Reference" "F1"
-			(at 191.77 22.86 90)
+			(at 196.85 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,7 +12626,7 @@
 			)
 		)
 		(property "Value" "60R050XUL"
-			(at 191.77 25.4 90)
+			(at 196.85 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12634,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
-			(at 196.85 27.94 0)
+			(at 201.93 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 29.21 0)
+			(at 196.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12653,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 191.77 29.21 0)
+			(at 196.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
