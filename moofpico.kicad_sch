@@ -1729,6 +1729,109 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -5417,6 +5520,12 @@
 		(uuid "1778308b-be9f-49de-bf63-bd7beb35e1eb")
 	)
 	(junction
+		(at 226.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aa06276-cd97-4044-8f46-89358f459a2c")
+	)
+	(junction
 		(at 170.18 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5429,16 +5538,34 @@
 		(uuid "747384a3-bfc3-445a-99d9-8df86da5d8a9")
 	)
 	(junction
+		(at 266.7 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f86d8a3-c0ad-4e03-b72c-2d59f72d365d")
+	)
+	(junction
 		(at 177.8 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84db0aec-b0e1-4157-80f8-c164960a7ad5")
 	)
 	(junction
+		(at 226.06 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "911a5bf3-041b-4c43-84a3-28536e159a8c")
+	)
+	(junction
 		(at 205.74 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d8bba87-e8be-4e08-90f0-7dd9aacaf251")
+	)
+	(junction
+		(at 228.6 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2e50fa4-c4e4-40d7-ad7d-8a76216fa0c4")
 	)
 	(junction
 		(at 173.99 52.07)
@@ -5451,18 +5578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de43e942-5639-4c20-8d72-aac33f2a9bdd")
-	)
-	(junction
-		(at 218.44 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea2cc3d5-fdda-4514-b897-780bafbad601")
-	)
-	(junction
-		(at 228.6 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f73f37e2-6535-4d2c-a1e1-ab32b6f155a1")
 	)
 	(junction
 		(at 191.77 39.37)
@@ -5636,6 +5751,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a32295a-61fd-4f8e-a6d1-2a988636b214")
+	)
+	(wire
+		(pts
 			(xy 134.62 161.29) (xy 135.89 161.29)
 		)
 		(stroke
@@ -5746,6 +5871,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 97.79) (xy 234.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28793706-d24f-45e7-97e8-7d48d62bb56f")
+	)
+	(wire
+		(pts
+			(xy 257.81 129.54) (xy 266.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5fcdfd-a532-4a4b-917a-6d7db8cf65dc")
+	)
+	(wire
+		(pts
 			(xy 161.29 115.57) (xy 172.72 115.57)
 		)
 		(stroke
@@ -5753,6 +5898,16 @@
 			(type default)
 		)
 		(uuid "2b8dc48a-77cb-4c92-b6f3-e67e64572f11")
+	)
+	(wire
+		(pts
+			(xy 234.95 113.03) (xy 234.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce6683e-6dd4-4c14-8ba3-0f795056c87a")
 	)
 	(wire
 		(pts
@@ -5883,16 +6038,6 @@
 			(type default)
 		)
 		(uuid "66b37dd6-9ca7-4470-b854-bfef141856be")
-	)
-	(wire
-		(pts
-			(xy 218.44 29.21) (xy 228.6 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d20b3e-d94d-4bc2-9bf3-afdea1f69a75")
 	)
 	(wire
 		(pts
@@ -6066,6 +6211,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 128.27) (xy 266.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82a39f2-e6fc-4d9c-8598-1a81a60ea60c")
+	)
+	(wire
+		(pts
+			(xy 218.44 29.21) (xy 228.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade7ed7a-dfd2-417f-8881-d56e6c66f337")
+	)
+	(wire
+		(pts
 			(xy 118.11 166.37) (xy 135.89 166.37)
 		)
 		(stroke
@@ -6086,6 +6251,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 129.54) (xy 275.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a40ef2-b76f-4aef-ba37-6d7c62b8760b")
+	)
+	(wire
+		(pts
 			(xy 177.8 64.77) (xy 185.42 72.39)
 		)
 		(stroke
@@ -6103,6 +6278,16 @@
 			(type default)
 		)
 		(uuid "bb4ceee4-ec53-4a43-9518-e56760551422")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 234.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0085e4f-894b-4ca7-80f9-739cd08a1cf6")
 	)
 	(wire
 		(pts
@@ -6243,16 +6428,6 @@
 			(type default)
 		)
 		(uuid "ee57e6f5-2118-4331-80f8-bee8ac3e97f3")
-	)
-	(wire
-		(pts
-			(xy 217.17 29.21) (xy 218.44 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1769dfb-4f26-4932-8f19-582dd3cac978")
 	)
 	(wire
 		(pts
@@ -9129,7 +9304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "411171c8-7246-4a3f-aabb-54e44b06afd7")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 203.708 31.75 0)
 			(effects
 				(font
@@ -9183,7 +9358,7 @@
 		(instances
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9647,75 +9822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 218.44 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55fbb527-13cc-463d-bc3d-464963decf3e")
-		(property "Reference" "C2"
-			(at 220.472 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 215.392 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 218.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f26dd793-f146-47ba-ac75-eb9c3ab67f75")
-		)
-		(pin "1"
-			(uuid "0f1f3e6c-7100-48e9-8744-140be0c9c7c1")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
 		(at 148.59 53.34 0)
 		(unit 1)
@@ -9974,7 +10080,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 266.7 129.54 0)
+		(at 266.7 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9983,7 +10089,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ba03652-1094-4cdc-860e-cadf77745995")
 		(property "Reference" "#PWR035"
-			(at 266.7 133.35 0)
+			(at 266.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +10098,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 124.46 0)
+			(at 266.7 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,6 +10350,72 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 257.81 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64f25294-4c45-4ed8-b6c7-50ff9a47999e")
+		(property "Reference" "TP1"
+			(at 253.492 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 252.476 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece63e09-9d9f-46bb-be52-8e3005e39b01")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10795,72 +10967,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f510805-fd19-4641-a939-857490fd03ed")
-		(property "Reference" "#PWR06"
-			(at 218.44 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "416ce038-24f2-45f0-ad08-1d2767be3ed8")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 130.81 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10929,12 +11035,12 @@
 	(symbol
 		(lib_id "power:+5V")
 		(at 226.06 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aacb69af-5bbc-4e40-8709-44695b83da30")
 		(property "Reference" "#PWR025"
 			(at 226.06 101.6 0)
@@ -11632,7 +11738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c371f814-1ba1-4d03-a5bb-5a66802e0031")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 232.41 31.1149 0)
 			(effects
 				(font
@@ -11686,7 +11792,7 @@
 		(instances
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11753,72 +11859,6 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 275.59 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3b14cc8-a922-4bf2-a4ff-1a95c5d32123")
-		(property "Reference" "#PWR037"
-			(at 275.59 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 275.59 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 275.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "104b7d50-48b4-4c63-bcf0-5b82ae4f27d0")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12555,6 +12595,76 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 234.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e032cf-bb3d-441c-a12f-390b25414452")
+		(property "Reference" "C3"
+			(at 237.49 109.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1u"
+			(at 237.49 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "714052da-5b82-49c7-932e-d94419a668fa")
+		)
+		(pin "2"
+			(uuid "35944834-30a7-4477-9aa5-e5c557957d3f")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "C3")
 					(unit 1)
 				)
 			)
