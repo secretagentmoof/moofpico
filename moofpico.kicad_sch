@@ -1746,21 +1746,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
+			(property "Value" "Conn_01x04"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1786,7 +1786,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1813,7 +1813,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -1859,18 +1859,7 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
+					(start -1.27 3.81)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -1881,7 +1870,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1899,7 +1888,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1917,7 +1906,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1935,7 +1924,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1945,24 +1934,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5595,6 +5566,10 @@
 		(uuid "73db9855-3cd1-4b83-8ed4-54a7dc2d6151")
 	)
 	(no_connect
+		(at 102.87 29.21)
+		(uuid "749fe4f0-eb57-4d5b-9547-e2bf64977095")
+	)
+	(no_connect
 		(at 146.05 82.55)
 		(uuid "751b22e0-03c1-4fd8-bb0a-4e64b0c5ded8")
 	)
@@ -5643,10 +5618,6 @@
 		(uuid "c5e07731-3ddf-45f2-9e7e-6352871f5c2b")
 	)
 	(no_connect
-		(at 100.33 29.21)
-		(uuid "d42eb8a9-19be-4280-8202-fc3fccf06614")
-	)
-	(no_connect
 		(at 196.85 80.01)
 		(uuid "d9cb1d6d-34fb-4e89-a3aa-4ec87588fe7f")
 	)
@@ -5677,6 +5648,16 @@
 	(no_connect
 		(at 236.22 154.94)
 		(uuid "fa001d3e-695f-4696-83e7-b087cbac943b")
+	)
+	(wire
+		(pts
+			(xy 105.41 29.21) (xy 105.41 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063404e1-be42-4338-828c-d7ed34905fe5")
 	)
 	(wire
 		(pts
@@ -5990,16 +5971,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 31.75) (xy 130.81 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cfe7e67-06bb-4639-8026-988205b20639")
-	)
-	(wire
-		(pts
 			(xy 73.66 87.63) (xy 73.66 90.17)
 		)
 		(stroke
@@ -6170,13 +6141,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 29.21) (xy 105.41 31.75)
+			(xy 105.41 31.75) (xy 130.81 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3089ed4-d7e3-4b08-97f5-1a636f303fe6")
+		(uuid "b1416696-530c-4fad-8964-e05024069451")
 	)
 	(wire
 		(pts
@@ -8707,83 +8678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 102.87 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d7dfce5-dfdb-477b-b310-d7e41f6b20e1")
-		(property "Reference" "J1"
-			(at 102.87 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 102.87 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
-			(at 102.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "91849afe-1e64-4f13-bb01-7181ab73da50")
-		)
-		(pin "3"
-			(uuid "8e6d8c63-8894-4487-a394-1694c5a02f8b")
-		)
-		(pin "1"
-			(uuid "9347fad4-aa05-4b8c-a99c-a11130582857")
-		)
-		(pin "4"
-			(uuid "f65cc951-7507-4ada-b727-61cdec526b2f")
-		)
-		(pin "2"
-			(uuid "eddd921f-e516-45ca-8df0-5d4de0e962fa")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 123.19 0)
 		(unit 1)
@@ -9081,6 +8975,80 @@
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 102.87 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad96072-b077-44bf-983e-e00b56b89731")
+		(property "Reference" "J1"
+			(at 104.14 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 104.14 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+			(at 102.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "528d4d4c-989c-4b43-b006-0d76f74027d6")
+		)
+		(pin "3"
+			(uuid "f8cad8c1-522a-493c-8d33-a426113e38d1")
+		)
+		(pin "1"
+			(uuid "07adfab8-84f5-4ef8-9367-f8a1197e014e")
+		)
+		(pin "4"
+			(uuid "5fdc0846-201b-46ee-8233-38a726caa4ae")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
@@ -10038,7 +10006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 29.21 0)
+		(at 100.33 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10047,7 +10015,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b310b9f-0734-43a2-94a9-441b380baff1")
 		(property "Reference" "#PWR02"
-			(at 97.79 35.56 0)
+			(at 100.33 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 34.29 0)
+			(at 100.33 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 29.21 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 29.21 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 29.21 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,72 +11976,6 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 102.87 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce90be21-89ad-4559-95c1-eaf770851297")
-		(property "Reference" "#PWR06"
-			(at 102.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "403637da-1611-472d-9536-7b6fe3a3d802")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
