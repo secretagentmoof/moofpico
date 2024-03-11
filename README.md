@@ -8,5 +8,6 @@ The [RPi Pico datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.
 - the `VBUS` pin is connected to the uUSB pin1 connector; it can thus be used to power the unit when the Apple II itself is off
 - You can reset the RPi by pulling `RUN` low, or power the unit down entirely by pulling `3V3_EN` low.
 
-While I don't think I'm allowed to redistribute the MEM2061 footprint/3D model, you can grab it from DigiKey's model page: https://www.digikey.com/en/models/9859612 (the SnapMagic one). I've used the KiCad schematic symbol, even though it only has 11 pins and not 12 (extra is just shield ground).
+While I don't think I'm allowed to redistribute the MEM2061 uSD socket footprint/3D model, you can grab it from DigiKey's model page: https://www.digikey.com/en/models/9859612 (the SnapMagic one). I've used the KiCad schematic symbol, even though it only has 11 pins and not 12 (extra is just shield ground).
 
+The dimensions for Apple II peripheral cards is defined in IIgs tech note #28, https://mirrors.apple2.org.za/ftp.gno.org/doc/apple/technotes/iigs/tn.iigs.028
