@@ -3,4 +3,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "MA_Connector_AppleII")(type "KiCad")(uri "${KIPRJMOD}/KiCad-AppleII/footprints/MA_Connector_AppleII.pretty")(options "")(descr ""))
   (lib (name "MEM2061_01_188_00_A")(type "KiCad")(uri "${KIPRJMOD}/MEM2061_01_188_00_A")(options "")(descr ""))
+  (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/ki-lime-pi-pico/kicad/project-libraries/RaspberryPi_Pico/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
 )
