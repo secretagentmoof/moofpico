@@ -951,7 +951,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -4.4 270)
+			(at 1.25 -4.4 -90)
 			(layer "F.SilkS")
 			(uuid "5362ab72-acd9-4af0-9798-4b504f867f70")
 			(effects
@@ -962,7 +962,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 1.25 4.4 270)
+			(at 1.25 4.4 -90)
 			(layer "F.Fab")
 			(uuid "67573329-a2fc-4781-899f-b93e65848048")
 			(effects
@@ -2427,7 +2427,7 @@
 			(uuid "187a9c54-e22a-43b4-b759-5658f796a6b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "1bc6e9b5-e88d-4555-a7e3-e56a7d3ce7be")
 			(effects
@@ -10067,7 +10067,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.357946 25.493957)
+			(mid 10.357958 25.493991)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -10409,7 +10409,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1c5a7819-66aa-4a10-a5ca-bae602434f17")
 			(effects
@@ -12980,6 +12980,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/KiCad-RP-Pico/RP-Pico Libraries/Pico.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -12988,7 +12999,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
 		(property "Reference" "C2"
-			(at 1.25 -2.55 360)
+			(at 1.25 -2.55 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bddad458-1dfe-4722-b5ef-ee9193352058")
@@ -13000,7 +13011,7 @@
 			)
 		)
 		(property "Value" ".1u"
-			(at 1.25 2.55 360)
+			(at 1.25 2.55 0)
 			(layer "F.Fab")
 			(uuid "b01b07e1-ad9a-49fc-898b-b992969cba57")
 			(effects
@@ -13192,7 +13203,7 @@
 			(uuid "3053bbfe-d06d-4af5-bb62-0c3f9347ab60")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "4b49e521-45b3-40f0-a9d7-15f77e43506c")
 			(effects
