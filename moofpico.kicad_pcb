@@ -10067,7 +10067,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.357946 25.493957)
+			(mid 10.357958 25.493991)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -13370,6 +13370,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "daa532d4-19b4-43db-af2c-fa4822ccdeb7")
+	)
+	(gr_text "<- KBD"
+		(at 103.632 87.757 0)
+		(layer "F.SilkS")
+		(uuid "63063215-f430-47b3-bade-74ebc42a7d56")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 144.78 77.47)
