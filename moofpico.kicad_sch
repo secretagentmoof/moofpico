@@ -5651,6 +5651,12 @@
 		(uuid "b2e50fa4-c4e4-40d7-ad7d-8a76216fa0c4")
 	)
 	(junction
+		(at 41.91 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50e8a46-359c-48aa-a6c7-883ec1da8b5a")
+	)
+	(junction
 		(at 57.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5930,6 +5936,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dc45c4-231c-4206-bf5f-6aface5ab89d")
+	)
+	(wire
+		(pts
+			(xy 33.02 137.16) (xy 41.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342adc47-5da4-4ddb-ba0b-5afb7df2626b")
+	)
+	(wire
+		(pts
 			(xy 118.11 152.4) (xy 119.38 152.4)
 		)
 		(stroke
@@ -6117,6 +6143,16 @@
 			(type default)
 		)
 		(uuid "738733de-e059-489c-99aa-f9b66a8db067")
+	)
+	(wire
+		(pts
+			(xy 33.02 142.24) (xy 41.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7673e439-08e9-4aa6-b753-99fb69cf1080")
 	)
 	(wire
 		(pts
@@ -10046,72 +10082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f3ae168-4fd9-409f-9fe6-43b55f4bcd64")
-		(property "Reference" "#PWR038"
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7c96f22-5f11-4fd6-bcaf-b261732b2856")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BS170")
 		(at 99.06 172.72 0)
 		(unit 1)
@@ -12472,6 +12442,76 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfc1036-bcea-482c-9190-fb94479c70e0")
+		(property "Reference" "C6"
+			(at 35.56 138.4362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1u"
+			(at 35.56 140.9762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+			(at 33.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
+			(at 33.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "K104K10X7RF53L2"
+			(at 33.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8d764a8-836d-47a1-8d6b-b8161143c254")
+		)
+		(pin "2"
+			(uuid "a72d0381-4691-4339-8c91-d5107c2775a9")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "C6")
 					(unit 1)
 				)
 			)
