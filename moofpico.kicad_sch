@@ -6086,16 +6086,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 142.24) (xy 176.53 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c7874a0-8052-413d-a5a4-ceb4e1dea618")
-	)
-	(wire
-		(pts
 			(xy 144.78 124.46) (xy 156.21 124.46)
 		)
 		(stroke
@@ -6183,16 +6173,6 @@
 			(type default)
 		)
 		(uuid "7a7e53dc-ef9f-4bec-8a15-79079591b7d3")
-	)
-	(wire
-		(pts
-			(xy 147.32 142.24) (xy 144.78 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc3a074-7534-444c-9598-7fa475c3764a")
 	)
 	(wire
 		(pts
@@ -6366,16 +6346,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 139.7) (xy 176.53 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31bb65b-4ef0-43bc-949b-42cf5f676d61")
-	)
-	(wire
-		(pts
 			(xy 144.78 29.21) (xy 157.48 29.21)
 		)
 		(stroke
@@ -6416,16 +6386,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 156.21 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6323533-d3e9-4b25-a50c-8b8cb9541b37")
-	)
-	(wire
-		(pts
 			(xy 168.91 62.23) (xy 179.07 62.23)
 		)
 		(stroke
@@ -6433,16 +6393,6 @@
 			(type default)
 		)
 		(uuid "d649b87a-f81a-4e7b-9fcc-d7ef9bc61da8")
-	)
-	(wire
-		(pts
-			(xy 147.32 144.78) (xy 147.32 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab660b9-3174-41b3-9524-1ed53fb28538")
 	)
 	(wire
 		(pts
@@ -6486,16 +6436,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 176.53 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83df06e-f8bf-484b-b022-92496d77806c")
-	)
-	(wire
-		(pts
 			(xy 144.78 69.85) (xy 154.94 69.85)
 		)
 		(stroke
@@ -6503,16 +6443,6 @@
 			(type default)
 		)
 		(uuid "fa8dd5e5-c0f7-4fd6-9ec6-3ca8f6009016")
-	)
-	(wire
-		(pts
-			(xy 156.21 137.16) (xy 161.29 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4717ca-2f2a-4d1e-948a-318f7fc387bd")
 	)
 	(wire
 		(pts
@@ -7740,7 +7670,7 @@
 	)
 	(global_label "TTLENBL"
 		(shape output)
-		(at 191.77 142.24 0)
+		(at 160.02 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7750,7 +7680,7 @@
 		)
 		(uuid "aaee8446-67da-464c-9be3-7b2852bbf13e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4961 142.24 0)
+			(at 170.7461 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8875,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS11")
-		(at 184.15 142.24 0)
+		(at 227.33 140.97 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8954,7 +8884,7 @@
 		(fields_autoplaced yes)
 		(uuid "3065afd9-b386-40fc-b30d-b779b28b4ce2")
 		(property "Reference" "U2"
-			(at 184.1417 133.35 0)
+			(at 227.3217 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8892,7 @@
 			)
 		)
 		(property "Value" "74F11"
-			(at 184.1417 135.89 0)
+			(at 227.3217 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +8900,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 184.15 142.24 0)
+			(at 227.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +8909,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS11"
-			(at 184.15 142.24 0)
+			(at 227.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +8918,7 @@
 			)
 		)
 		(property "Description" "Triple 3-input AND"
-			(at 184.15 142.24 0)
+			(at 227.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10761,16 +10691,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS11")
-		(at 227.33 140.97 0)
+		(at 152.4 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9a57d23-b714-466e-a6ab-412a6496d535")
 		(property "Reference" "U2"
-			(at 227.3217 132.08 0)
+			(at 151.892 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10707,7 @@
 			)
 		)
 		(property "Value" "74F11"
-			(at 227.3217 134.62 0)
+			(at 152.4 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +10715,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 227.33 140.97 0)
+			(at 152.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10724,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS11"
-			(at 227.33 140.97 0)
+			(at 152.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10733,7 @@
 			)
 		)
 		(property "Description" "Triple 3-input AND"
-			(at 227.33 140.97 0)
+			(at 152.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
