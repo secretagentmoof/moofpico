@@ -3618,6 +3618,7 @@
 		(property "Reference" "C6"
 			(at -1.564 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aab94e40-1c95-43d1-841b-e241b07616b6")
 			(effects
 				(font
@@ -7866,6 +7867,7 @@
 		(property "Reference" "SW1"
 			(at 3.81 -3.42 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eaf1997b-765d-4bae-95dd-caa3d9ef1210")
 			(effects
 				(font
@@ -9080,7 +9082,7 @@
 			(uuid "21967355-1db0-4723-a482-af6e693de2ff")
 		)
 		(fp_text user "K"
-			(at -1 2.5 0)
+			(at -0.068 2.217 0)
 			(layer "F.SilkS")
 			(uuid "6a76fdad-61f4-4a2e-8f11-6987208e8260")
 			(effects
@@ -10312,7 +10314,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.357949 25.493953)
+			(mid 10.357946 25.493957)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -13616,10 +13618,75 @@
 		(layer "Edge.Cuts")
 		(uuid "daa532d4-19b4-43db-af2c-fa4822ccdeb7")
 	)
+	(gr_text "moofpico ${REVISION}"
+		(at 135.636 88.9 0)
+		(layer "F.SilkS")
+		(uuid "3c33d39a-311f-4d01-bf1f-fef6384c5b73")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "<- KBD"
 		(at 101.84 75.282 0)
 		(layer "F.SilkS")
 		(uuid "63063215-f430-47b3-bade-74ebc42a7d56")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 103.632 111.506 0)
+		(layer "F.SilkS")
+		(uuid "a34a8a26-5432-49fc-b853-b52085095493")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TX UART\n"
+		(at 106.172 107.696 0)
+		(layer "F.SilkS")
+		(uuid "b5431177-fc23-4c83-90ab-cd996b234854")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "USB\nPWR"
+		(at 105.918 105.918 0)
+		(layer "F.SilkS")
+		(uuid "b7593bb6-974b-4003-9e1c-b799ebb31a9d")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX UART"
+		(at 100.838 108.966 0)
+		(layer "F.SilkS")
+		(uuid "ed2f96d7-e0cf-4330-b045-1a60ae396693")
 		(effects
 			(font
 				(size 0.8128 0.8128)
