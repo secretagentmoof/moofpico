@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "moofpico")
-		(rev "0.0")
+		(rev "0.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS11"
