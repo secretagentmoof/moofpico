@@ -4637,21 +4637,21 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x02"
+		(symbol "Switch:SW_DIP_x01"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x02"
+			(property "Value" "SW_DIP_x01"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4677,7 +4677,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4695,7 +4695,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x2*"
+			(property "ki_fp_filters" "SW?DIP?x1*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4704,20 +4704,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DIP_x02_0_0"
+			(symbol "SW_DIP_x01_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -4739,18 +4728,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 2.032 0)
 					(radius 0.508)
@@ -4762,21 +4739,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "SW_DIP_x02_0_1"
+			(symbol "SW_DIP_x01_0_1"
 				(rectangle
-					(start -3.81 5.08)
+					(start -3.81 2.54)
 					(end 3.81 -2.54)
 					(stroke
 						(width 0.254)
@@ -4787,9 +4753,9 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x02_1_1"
+			(symbol "SW_DIP_x01_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -4807,24 +4773,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 5.08)
 					(name "~"
@@ -4834,25 +4782,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5741,10 +5671,6 @@
 		(uuid "645463c2-f398-4ebf-8df7-c876e73ac8e4")
 	)
 	(no_connect
-		(at 172.72 26.67)
-		(uuid "6dfce2de-b1f8-4259-8973-0e39f98f808f")
-	)
-	(no_connect
 		(at 119.38 182.88)
 		(uuid "73db9855-3cd1-4b83-8ed4-54a7dc2d6151")
 	)
@@ -5803,10 +5729,6 @@
 	(no_connect
 		(at 134.62 190.5)
 		(uuid "e5f43784-8e60-44f5-b55a-343c2e9d3437")
-	)
-	(no_connect
-		(at 157.48 26.67)
-		(uuid "e805ff55-2029-4664-a994-aa2be9e6386f")
 	)
 	(no_connect
 		(at 144.78 180.34)
@@ -6804,7 +6726,7 @@
 	)
 	(global_label "PHI1"
 		(shape output)
-		(at 57.15 106.68 0)
+		(at 57.15 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6814,7 +6736,7 @@
 		)
 		(uuid "1edd05dc-9152-4216-bb75-49ac74381f23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.55 106.68 0)
+			(at 64.55 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7760,7 @@
 	)
 	(global_label "TTLPHI1"
 		(shape input)
-		(at 31.75 106.68 180)
+		(at 31.75 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7848,7 +7770,7 @@
 		)
 		(uuid "b260b4d5-edca-41a0-a6db-d5d229e97b8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3867 106.68 0)
+			(at 21.3867 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7892,7 @@
 	)
 	(global_label "TTLR{slash}W"
 		(shape tri_state)
-		(at 31.75 109.22 180)
+		(at 31.75 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7980,7 +7902,7 @@
 		)
 		(uuid "c4b7a665-5033-4409-9499-90195ae6d817")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.7496 109.22 0)
+			(at 21.7496 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +7914,7 @@
 	)
 	(global_label "R{slash}W"
 		(shape output)
-		(at 57.15 109.22 0)
+		(at 57.15 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8002,7 +7924,7 @@
 		)
 		(uuid "c9c1d3f1-3ae9-4c55-bc9d-b49f752fac2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1871 109.22 0)
+			(at 64.1871 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,80 +11342,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x02")
-		(at 165.1 29.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6980de0-127b-444c-98bb-bee49e756b1d")
-		(property "Reference" "SW1"
-			(at 165.1 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x02"
-			(at 165.1 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/7/ENG_CD_1825360_B5-2021008.pdf"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e91d6ee-08d7-4523-84ad-e04f0443b64f")
-		)
-		(pin "1"
-			(uuid "109c71b1-55d2-4dcf-899a-60d45e7b13b4")
-		)
-		(pin "4"
-			(uuid "ca67dd60-cb02-4547-b3e8-04a10ed4cda0")
-		)
-		(pin "3"
-			(uuid "85029559-6bf6-4fcc-aa96-7469e30c546e")
-		)
-		(instances
-			(project "moofpico"
-				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 139.7 0)
 		(unit 1)
@@ -11888,6 +11736,74 @@
 			(project "moofpico"
 				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 165.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5bf5ebb-7f52-4051-8a58-eab8f8fd7c8d")
+		(property "Reference" "SW1"
+			(at 165.1 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 165.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94392abe-eba4-4f21-8bbf-307fc56ddd15")
+		)
+		(pin "1"
+			(uuid "187f28b9-f8d6-409f-b7be-028f1479a753")
+		)
+		(instances
+			(project "moofpico"
+				(path "/adf04048-7c47-4d7c-943c-c55ccf696419"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
