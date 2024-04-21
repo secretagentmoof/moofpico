@@ -5557,12 +5557,6 @@
 		(uuid "61146286-62f5-4d40-9a09-556bd5bfc169")
 	)
 	(junction
-		(at 189.23 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "698d176c-ef48-4495-ac81-c311fcbd4139")
-	)
-	(junction
 		(at 222.25 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5573,6 +5567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "747384a3-bfc3-445a-99d9-8df86da5d8a9")
+	)
+	(junction
+		(at 158.75 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eeae2f0-616e-48c6-9b60-4a5dfdb75b89")
 	)
 	(junction
 		(at 41.91 137.16)
@@ -5587,28 +5587,34 @@
 		(uuid "871237c2-ab84-4103-9f2e-f34653b46f06")
 	)
 	(junction
+		(at 151.13 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c1703a-41a3-4422-9368-c3b8f5013bd4")
+	)
+	(junction
 		(at 209.55 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "911a5bf3-041b-4c43-84a3-28536e159a8c")
 	)
 	(junction
-		(at 199.39 21.59)
+		(at 189.23 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92dd1e72-7129-4448-b9fe-11a25786ec83")
+		(uuid "9e8a2919-d4a8-45d9-acf7-c3df8f9b980a")
+	)
+	(junction
+		(at 217.17 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae95a960-bdbf-4f77-ae6a-46eb5f6573c5")
 	)
 	(junction
 		(at 154.94 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b041e673-8c3c-41ee-9c29-a13fda440a39")
-	)
-	(junction
-		(at 217.17 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e50fa4-c4e4-40d7-ad7d-8a76216fa0c4")
 	)
 	(junction
 		(at 41.91 142.24)
@@ -5621,12 +5627,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de43e942-5639-4c20-8d72-aac33f2a9bdd")
-	)
-	(junction
-		(at 194.31 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9d00530-7204-461e-914b-e17e0b332249")
 	)
 	(junction
 		(at 219.71 143.51)
@@ -5780,6 +5780,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 16.51) (xy 189.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e49c4e7-271f-4b87-bbd8-cd12a7808060")
+	)
+	(wire
+		(pts
 			(xy 154.94 72.39) (xy 156.21 72.39)
 		)
 		(stroke
@@ -5787,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "0ecf4336-f1d7-4fc0-842d-6962eb1926e9")
+	)
+	(wire
+		(pts
+			(xy 210.82 29.21) (xy 210.82 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3b6c98-c601-456e-af3e-16cd87d155e5")
 	)
 	(wire
 		(pts
@@ -5870,7 +5890,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 21.59) (xy 194.31 21.59)
+			(xy 189.23 29.21) (xy 198.12 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6020,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 16.51) (xy 189.23 16.51)
+			(xy 121.92 16.51) (xy 151.13 16.51)
 		)
 		(stroke
 			(width 0)
@@ -6090,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 199.39 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738733de-e059-489c-99aa-f9b66a8db067")
-	)
-	(wire
-		(pts
 			(xy 33.02 142.24) (xy 41.91 142.24)
 		)
 		(stroke
@@ -6120,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 21.59) (xy 217.17 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7840db63-0d59-4de1-9686-c50320df7e5d")
+	)
+	(wire
+		(pts
 			(xy 154.94 67.31) (xy 154.94 69.85)
 		)
 		(stroke
@@ -6137,16 +6157,6 @@
 			(type default)
 		)
 		(uuid "7a7e53dc-ef9f-4bec-8a15-79079591b7d3")
-	)
-	(wire
-		(pts
-			(xy 199.39 21.59) (xy 203.2 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c82dc04-91ac-450a-9389-945499217882")
 	)
 	(wire
 		(pts
@@ -6220,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 21.59) (xy 189.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a75b537f-5804-458e-afac-9f6317805916")
-	)
-	(wire
-		(pts
 			(xy 41.91 135.89) (xy 41.91 137.16)
 		)
 		(stroke
@@ -6240,7 +6240,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 21.59) (xy 217.17 21.59)
+			(xy 205.74 29.21) (xy 210.82 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6360,6 +6360,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 16.51) (xy 158.75 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a813c7-a331-4f7b-a691-17d3251574bd")
+	)
+	(wire
+		(pts
 			(xy 144.78 59.69) (xy 157.48 59.69)
 		)
 		(stroke
@@ -6367,6 +6377,16 @@
 			(type default)
 		)
 		(uuid "c71a1155-0f59-418c-bcae-3974622122df")
+	)
+	(wire
+		(pts
+			(xy 158.75 16.51) (xy 189.23 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcb5f64-42d5-4afe-8b7b-bdcafdec5a3e")
 	)
 	(wire
 		(pts
@@ -6407,16 +6427,6 @@
 			(type default)
 		)
 		(uuid "e0644bea-13fc-4797-88b8-ff79d9ef3df2")
-	)
-	(wire
-		(pts
-			(xy 189.23 16.51) (xy 189.23 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b85d23-48de-422a-9c4b-1f204d9a4497")
 	)
 	(wire
 		(pts
@@ -6515,6 +6525,16 @@
 			)
 		)
 		(uuid "53fc723d-ec39-40e9-88f3-69bb9d1e912b")
+	)
+	(text "Enable USB power for Pico\n(when Apple II PSU is off)"
+		(exclude_from_sim no)
+		(at 165.608 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5576405f-7e84-4256-b960-5986d97015dc")
 	)
 	(text "Internally pulled high"
 		(exclude_from_sim no)
@@ -9142,7 +9162,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 199.39 21.59 0)
+		(at 158.75 16.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9151,7 +9171,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d968703-66a1-4a89-ac84-13176d0babea")
 		(property "Reference" "#FLG01"
-			(at 199.39 19.685 0)
+			(at 158.75 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,15 +9180,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 199.39 16.51 0)
+			(at 161.29 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 21.59 0)
+			(at 158.75 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 21.59 0)
+			(at 158.75 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9207,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 199.39 21.59 0)
+			(at 158.75 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9334,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 194.31 24.13 0)
+		(at 151.13 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9321,7 +9342,7 @@
 		(dnp no)
 		(uuid "411171c8-7246-4a3f-aabb-54e44b06afd7")
 		(property "Reference" "C2"
-			(at 196.342 24.384 0)
+			(at 153.162 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9351,7 @@
 			)
 		)
 		(property "Value" ".1u"
-			(at 195.834 26.416 0)
+			(at 152.654 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9360,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 194.31 24.13 0)
+			(at 151.13 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9369,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 194.31 24.13 0)
+			(at 151.13 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9378,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.31 24.13 0)
+			(at 151.13 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9789,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 207.01 21.59 0)
+		(at 201.93 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9776,7 +9797,7 @@
 		(dnp no)
 		(uuid "5588963c-cfee-4fc5-90d6-3bb7e646f2e2")
 		(property "Reference" "ZD1"
-			(at 207.01 19.05 0)
+			(at 201.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +9805,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 207.01 24.384 0)
+			(at 201.93 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9813,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 207.01 26.035 0)
+			(at 201.93 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9822,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 207.01 21.59 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9831,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 207.01 21.59 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11079,7 +11100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 26.67 0)
+		(at 151.13 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11088,7 +11109,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3a06775-b5c4-41fb-83ea-088c9fe02d4b")
 		(property "Reference" "#PWR05"
-			(at 194.31 33.02 0)
+			(at 151.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +11118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 31.75 0)
+			(at 151.13 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +11126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 26.67 0)
+			(at 151.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 26.67 0)
+			(at 151.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 26.67 0)
+			(at 151.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,10 +11770,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5bf5ebb-7f52-4051-8a58-eab8f8fd7c8d")
 		(property "Reference" "SW1"
-			(at 165.1 21.59 0)
+			(at 165.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,6 +11785,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
@@ -11785,8 +11806,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 165.1 29.21 0)
+		(property "Description" "Enable USB power for pico when the II is turned off"
+			(at 167.132 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
