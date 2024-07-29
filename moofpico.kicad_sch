@@ -2560,10 +2560,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 12.7 0 180)
 					(length 2.54)
-					(name "SYNC/TESTPIN"
+					(name "TESTPIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2577,6 +2577,7 @@
 							)
 						)
 					)
+					(alternate "~{SYNC}" output line)
 				)
 				(pin bidirectional line
 					(at -12.7 38.1 0)
@@ -2884,10 +2885,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 -2.54 180)
-					(length 2.54) hide
-					(name "N.C."
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TESTPIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2901,6 +2902,8 @@
 							)
 						)
 					)
+					(alternate "COLORREF" output line)
+					(alternate "M2B0" output line)
 				)
 				(pin output clock
 					(at 12.7 -35.56 180)
@@ -2959,7 +2962,7 @@
 				(pin input line
 					(at -12.7 -30.48 0)
 					(length 2.54)
-					(name "USER_1"
+					(name "USER1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2973,6 +2976,8 @@
 							)
 						)
 					)
+					(alternate "~{M2SEL}" output line)
+					(alternate "µSYNC" output clock)
 				)
 				(pin bidirectional line
 					(at -12.7 33.02 0)
@@ -3289,7 +3294,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "A"
 				(at -19.05 38.1 0)
 				(effects
 					(font
@@ -3326,7 +3331,7 @@
 				)
 			)
 			(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash"
-				(at 0 0 0)
+				(at 0 -54.61 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3343,7 +3348,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RaspberryPi_Pico_Common* RaspberryPi_Pico_Original*"
+			(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?Original*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3518,9 +3523,9 @@
 					(alternate "USB_OVCUR_DET" input line)
 					(alternate "~{SPI1_CSn}" bidirectional line)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -38.1 90)
-					(length 3.81)
+					(length 3.81) hide
 					(name "GND"
 						(effects
 							(font
@@ -3535,7 +3540,6 @@
 							)
 						)
 					)
-					(alternate "GND_IN" power_in line)
 				)
 				(pin bidirectional line
 					(at -22.86 -2.54 0)
@@ -3916,9 +3920,9 @@
 					(alternate "UART1_CTS" input line)
 					(alternate "USB_VBUS_DET" input line)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -38.1 90)
-					(length 3.81) hide
+					(length 3.81)
 					(name "GND"
 						(effects
 							(font
@@ -3933,6 +3937,7 @@
 							)
 						)
 					)
+					(alternate "GND_IN" power_in line)
 				)
 				(pin input line
 					(at -22.86 -20.32 0)
@@ -4003,7 +4008,7 @@
 					(alternate "UART1_RTS" output line)
 					(alternate "USB_OVCUR_DET" input line)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 22.86 -20.32 180)
 					(length 3.81)
 					(name "AGND"
@@ -4020,8 +4025,7 @@
 							)
 						)
 					)
-					(alternate "GND" power_out line)
-					(alternate "GND_IN" power_in line)
+					(alternate "GND" passive line)
 				)
 				(pin bidirectional line
 					(at 22.86 -15.24 180)
@@ -4138,6 +4142,7 @@
 							)
 						)
 					)
+					(alternate "VSYS_IN" power_in line)
 					(alternate "VSYS_OUT" power_out line)
 				)
 				(pin bidirectional line
@@ -5326,6 +5331,10 @@
 	(no_connect
 		(at 234.95 140.97)
 		(uuid "9cd00c22-7d14-4233-aa1f-bef8b710cc7b")
+	)
+	(no_connect
+		(at 144.78 149.86)
+		(uuid "9f8dcd73-d01c-46ef-8353-73c614774546")
 	)
 	(no_connect
 		(at 127 19.05)
